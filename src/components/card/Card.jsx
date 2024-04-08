@@ -45,4 +45,4 @@ function Card({item}) {
   )
 }
 
-export default Card
+export default Card;
