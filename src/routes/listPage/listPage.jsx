@@ -3,6 +3,7 @@ import './listPage.scss';
 import Filter from "./../../components/filter/Filter"
 import Card from "../../components/card/Card"
 import React from 'react';
+import Map from '../../components/map/Map';
 
 function ListPage() {
 
@@ -15,8 +16,11 @@ function ListPage() {
           <Card key = {item.id} item ={item}/>
         ))}
       </div>
-      <div className="listContainer"></div>
-      <div className="mapContainer">Map</div>
+      {/* <div className="listContainer"></div> */}
+      <div className="mapContainer">
+        <Map items={data}/>
+        
+      </div>
     </div>
   )
 }
