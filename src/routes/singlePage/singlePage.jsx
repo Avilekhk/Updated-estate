@@ -8,6 +8,9 @@ function SinglePage() {
       <div className="details">
         <div className="wrapper">
           <Slider />
+          <div className="info">
+            <div className="top"> </div>
+          </div>
         </div>
       </div>
       <div className="features">
